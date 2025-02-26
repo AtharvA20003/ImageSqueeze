@@ -99,11 +99,11 @@ export default function Compressor() {
             <input type="range" min="10" max="100" value={quality} onChange={handleQualityChange} className="w-full cursor-pointer" />
           )}
 
-          {originalSize && (
+          {/* {originalSize && (
             <p className="text-gray-400 text-sm text-center">
               <span className="text-[#ffb400]">Estimated Compressed Size: {compressedSize} KB</span>
             </p>
-          )}
+          )} */}
 
           <button onClick={handleCompression} className="bg-[#00e0ff] hover:bg-[#00b8cc] text-black font-semibold p-2 rounded-lg transition-all">Compress</button>
         </div>
@@ -113,7 +113,7 @@ export default function Compressor() {
           {clientReady && image && (
             <div className="mt-8 text-center">
               <h3 className="text-lg text-gray-300">Original Image</h3>
-              <p className="text-gray-400">Size: {originalSize} KB</p>
+              {/* <p className="text-gray-400">Size: {originalSize} KB</p> */}
               <img src={image} alt="Original" width={300} className="mt-2 border-2 border-transparent transition-all duration-300 hover:border-white hover:shadow-white hover:shadow-lg rounded-lg" />
             </div>
           )}
@@ -121,7 +121,7 @@ export default function Compressor() {
           {clientReady && compressedImage && (
             <div ref={compressedRef} className="mt-8 text-center">
               <h3 className="text-lg text-gray-300">Compressed Image</h3>
-              <p className="text-[#00e0ff] font-semibold">Final Size: {compressedSize} KB</p>
+              {/* <p className="text-[#00e0ff] font-semibold">Final Size: {compressedSize} KB</p> */}
               <a href={compressedImage} download="compressed.jpeg">
                 <img src={compressedImage} alt="Compressed" width={300} className="mt-2 border-2 border-transparent transition-all duration-300 hover:border-[#00e0ff] hover:shadow-[#00e0ff] hover:shadow-lg rounded-lg" />
               </a>
