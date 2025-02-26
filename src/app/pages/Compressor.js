@@ -56,6 +56,7 @@ export default function Compressor() {
 
       canvas.toBlob(
         (blob) => {
+          console.log('Actual Size:', blob.size)
           const compressedBlob = new Blob([blob], { type: "image/jpeg" });
           setCompressedImage(URL.createObjectURL(compressedBlob));
           setTimeout(() => {
