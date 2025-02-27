@@ -159,6 +159,7 @@ export default function CompressorClaude() {
         <title>ImageSqueeze - Free Online Image Compressor</title>
         <meta property="og:title" content="ImageSqueeze - Free Online Image Compressor" key="title" />
         <meta name="description" content="Compress JPEG and PNG images online for free! No signup, no watermark, just fast and easy image compression." />
+        <meta name="google-site-verification" content="25LMA7NQlFYfrfVTQlz5DWDMGRs25M3kQab-PQPDChk" />
       </Head>
 
       <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center py-10 px-4">
