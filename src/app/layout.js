@@ -18,7 +18,7 @@ export const metadata = {
   description: "Compress JPEG, PNG, and WebP images online for free! No signup, no watermark, just fast and easy image compression.",
   keywords: "image compressor, JPEG compressor, PNG optimizer, WebP compression, free image reducer",
   robots: "index, follow",
-  'google-site-verification':"25LMA7NQlFYfrfVTQlz5DWDMGRs25M3kQab-PQPDChk",
+  verification: { google: "25LMA7NQlFYfrfVTQlz5DWDMGRs25M3kQab-PQPDChk" },
   openGraph: {
     title: "ImageSqueeze - Free Online Image Compressor",
     description: "Optimize your images quickly and efficiently with ImageSqueeze. No watermarks, no signup—just fast and secure image compression.",
